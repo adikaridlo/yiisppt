@@ -14,7 +14,7 @@ $this->title = 'HASIL';
 
     <div class="row">
         <div class="col-lg-5">
-            <table border='1'>
+            <table class="table">
                 <tr>
                     <td>NOP</td>
                     <td><?php echo($nop) ?></td>
@@ -55,6 +55,7 @@ $this->title = 'HASIL';
                     ?></td>
                 </tr>
             </table>
+            <a class="btn btn-success" href="/sppt/">Kembali</a>
         </div>
     </div>
 </div>
